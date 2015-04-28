@@ -852,7 +852,7 @@ header.global-x nav{overflow:hidden;width:1280px !important;max-width:1280px;hei
 header.global-x nav h1.logo{float:left;position:absolute;left:55px;top:15px;}
 header.global-x nav h1.logo a{padding:0 !important;margin:0 !important;}
 header.global-x nav h1.logo img{width:151px;}
-header.global-x nav .gnb{float:left;margin-left:700px;padding-top:32px;}
+header.global-x nav .gnb{float:left;margin-left:850px;padding-top:32px;}
 header.global-x nav .gnb li{float:left;padding-right:40px;}
 header.global-x nav .gnb li a{font-size:16px;display:block;height:20px;font-family: 'NanumBarunGothic';font-weight:400;color:#333333;}
 header.global-x nav .gnb li.on a{color:#2faa47;}
