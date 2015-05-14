@@ -13,23 +13,23 @@
 .course-wrapper section.course-content header{border-bottom:3px solid #2faa47;}
 
 /* 아카데미X */
-header.global{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;position: relative;width: 100%;background: #fff;}
-header.global nav{width:1280px !important;max-width:1280px;height:80px;margin:0 auto;position:relative;padding:0;}
-header.global nav h1.logo{float:left;margin-top: 8px;/*position:absolute;left:55px;top:15px;*/}
-header.global nav h1.logo a{padding:0 !important;margin:0 !important;}
-header.global nav h1.logo img{width:151px;  height: auto;  max-width: none;  margin-top: 18px;  margin-left: 22px;}
-header.global nav .gnb{float:left;margin-left:850px;padding-top:32px;}
-header.global nav .gnb li{float:left;padding-right:40px;}
-header.global nav .gnb li a{font-size:16px;display:block;height:20px;font-family: 'NanumBarunGothic';font-weight:400;color:#333333;}
-header.global nav .gnb li.on a{color:#2faa47;}
-header.global nav .gnb-blobal{overflow:hidden;position:absolute;right:139px;top:34px;}
-header.global nav .gnb-blobal li{float:left;font-size:12px;}
-header.global nav .gnb-blobal li::after{content:'|';display:block;float:right;color:#ddd;padding-right:10px;padding-left:10px;}
-header.global nav .gnb-blobal li a{font-family:'NanumBarunGothic';font-weight:700;color:#999;}
-header.global nav .gnb-blobal li:last-child::after{display:none;}
-header.global nav .gnb-blobal li.on a{color:#2faa47;}
+header.global-x{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;position: relative;width: 100%;background: #fff;}
+header.global-x nav{width:1280px !important;max-width:1280px;height:80px;margin:0 auto;position:relative;padding:0;}
+header.global-x nav h1.logo{float:left;margin-top: 8px;width:20%;margin-right:45%;}
+header.global-x nav h1.logo a{padding:0 !important;margin:0 !important;}
+header.global-x nav h1.logo img{width:151px;  height: auto;  max-width: none;  margin-top: 18px;  margin-left: 22px;}
+header.global-x nav .gnb{float:left;padding-top:32px;width:30%;}
+header.global-x nav .gnb li{float:left;padding-right:40px;}
+header.global-x nav .gnb li a{font-size:16px;display:block;height:20px;font-family: 'NanumBarunGothic';font-weight:400;color:#333333;}
+header.global-x nav .gnb li.on a{color:#2faa47;}
+header.global-x nav .gnb-blobal{overflow:hidden;position:absolute;right:60px;top:32px;}
+header.global-x nav .gnb-blobal li{float:left;font-size:12px;}
+header.global-x nav .gnb-blobal li::after{content:'|';display:block;float:right;color:#ddd;padding-right:10px;padding-left:10px;}
+header.global-x nav .gnb-blobal li a{font-family:'NanumBarunGothic';font-weight:700;color:#999;}
+header.global-x nav .gnb-blobal li:last-child::after{display:none;}
+header.global-x nav .gnb-blobal li.on a{color:#2faa47;}
 
-header.global .nav-global{margin-left: 307px;margin-top: 30px;}
+header.global-x .nav-global{margin-left: 307px;margin-top: 30px;}
 
 
 
@@ -65,7 +65,7 @@ header.global .nav-global{margin-left: 307px;margin-top: 30px;}
 
 /*로그인 style add*/
 .view-login .content-wrapper,.view-register .content-wrapper{padding-top:24px;padding-bottom: 100px;}
-.region-column-wrapper{padding-top:24px;}
+.region-column-wrapper,.view-dashboard .content-wrapper,.content-wrapper.padTop {padding-top:24px;}
 header.global .nav-courseware{margin-top: 20px;}
 
  .content .form-actions button[type="submit"],.btn_block{background:#2faa47 !important;box-shadow:none !important;font-family:'NanumBarunGothic' !important;font-weight:400 !important;}
@@ -75,7 +75,7 @@ header.global .nav-courseware{margin-top: 20px;}
 /*dashboard style add*/
 .window-wrap{  width: 100%;  min-width: 1280px;  background: #f4f4f4;}
 .container{  max-width: 1280px;  width: 1280px;  padding: 0 50px;  margin: 0 auto 0;  box-sizing: border-box;}
-.dashboard {  padding: 0;  width: 1120px;  margin: 25px 30px 60px;  overflow: hidden;  background: #fff;}
+.dashboard {  padding: 0;  width: 1120px;  margin: 0px 30px 60px;  overflow: hidden;  background: #fff;}
 .dashboard .profile-sidebar{margin-left:0 !important}
 .dashboard .profile-sidebar .profile{border:none;}
 .dashboard .my-courses .listing-courses .course-item{border-bottom:none;}
@@ -88,9 +88,31 @@ header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
 /*about*/
 
 .course-info .course-sidebar>section{box-shadow: none; border: none;}
-.btn_block{background:#32b04a;color:#fff;width:100%;  padding: 15px 20px;display: inline-block;text-align: center !important;border:none;}
+.btn_block{display: inline-block;background:#32b04a;color:#fff !important;width:100%;border-radius:3px;  padding: 15px 20px;text-align: center !important;border:none;text-shadow: none;}
 .btn_block:active,.btn_block:hover{background:none repeat scroll 0 0 #289137 !important;}
-
-.container #main-content{background: none repeat scroll 0 0 white;padding: 15px;}
+.modal .inner-wrapper form .submit input[type="submit"], .leanModal_box .inner-wrapper form .submit input[type="submit"]{background:#32b04a;color:#fff;width:100%;  padding: 15px 20px;display: inline-block;text-align: center !important;border:none;}
+.modal .inner-wrapper form .submit input[type="submit"], .leanModal_box .inner-wrapper form .submit input[type="submit"]:hover{background:none repeat scroll 0 0 #289137 !important;}
+.modal, .leanModal_box{border:none;padding:0}
+.modal .inner-wrapper{border:none;box-shadow:none;}
+.container #main-content{width:100%;background: none repeat scroll 0 0 white;padding: 15px;overflow:hidden;}
 .course-detail-overview {background-color: #f4f4f4;padding: 10px;}
+.course-detail-video{text-align:center}
+/*Partner*/
+ #main-content.partner,#main-content.professor {
+  padding: 0 3px;
+  background: none;
+}
+/* staff */
+.wrapper-preview-menu{  background-color: #F4F4F4 !important;padding: 0 15px 15px  !important;}
 
+/*cousrseware*/
+.course-index{border-right: 1px solid #f4f4f4 !important;}
+.container>div{border:none !important;background:none !important}
+.course-index div#accordion .chapter{background-color: #f2f2f2;}
+
+.courseware .container {margin-top: 25px;background: #fff;}
+
+.course-index h3.active a{  color: #32b04a !important;}
+.course-index div#accordion ul.ui-accordion-content li.active>a p{  color: #32b04a  !important;}
+
+.course-index div#accordion h3.ui-accordion-header a{  color: #333  !important;}
