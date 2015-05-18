@@ -88,7 +88,7 @@ header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
 /*about*/
 
 .course-info .course-sidebar>section{box-shadow: none; border: none;}
-.btn_block{display: inline-block;background:#32b04a;color:#fff !important;width:100%;border-radius:3px;  padding: 15px 20px;text-align: center !important;border:none;text-shadow: none;}
+.btn_block{display: block;background:#32b04a;color:#fff !important;width:auto;border-radius:3px;  padding: 15px 20px;text-align: center !important;border:none;text-shadow: none;}
 .btn_block:active,.btn_block:hover{background:none repeat scroll 0 0 #289137 !important;}
 .modal .inner-wrapper form .submit input[type="submit"], .leanModal_box .inner-wrapper form .submit input[type="submit"]{background:#32b04a;color:#fff;width:100%;  padding: 15px 20px;display: inline-block;text-align: center !important;border:none;}
 .modal .inner-wrapper form .submit input[type="submit"], .leanModal_box .inner-wrapper form .submit input[type="submit"]:hover{background:none repeat scroll 0 0 #289137 !important;}
