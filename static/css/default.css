@@ -116,3 +116,34 @@ header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
 .course-index div#accordion ul.ui-accordion-content li.active>a p{  color: #32b04a  !important;}
 
 .course-index div#accordion h3.ui-accordion-header a{  color: #333  !important;}
+
+
+/* */
+.course-summary{ position: relative;}
+.course-summary .media .hero .play-intro{
+  background-image: linear-gradient(-90deg, rgba(0,0,0,0.65), rgba(0,0,0,0.75));
+  border-radius: 4px;
+  box-shadow: 0 1px 12px 0 rgba(0,0,0,0.4);
+  border: 2px solid rgba(255,255,255,0.8);
+  height: 80px;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -40px;
+  position: absolute;
+  top: 23%;
+  width: 80px;
+}
+
+.course-summary .media .hero .play-intro::after {
+  color: rgba(255,255,255,0.8);
+  content: "\25B6";
+  display: block;
+  font: normal 2em/1em "NanumBarunGothic","Open Sans",Verdana,Geneva,sans-serif,sans-serif;
+  left: 50%;
+  margin-left: -11px;
+  margin-top: -16px;
+  position: absolute;
+  text-shadow: 0 -1px rgba(0,0,0,0.8);
+  top: 50%;
+}
+.course-summary .media .hero img{width:100%;}
