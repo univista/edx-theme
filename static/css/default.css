@@ -193,7 +193,8 @@ header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
 
 
 .content_sec{margin:0 auto;background:#e5e5e5;overflow:hidden;clear:both;}
-.certificate_list li{float:left;width:50%;}
+.certificate_list > li{float:left;  width: 41%;
+  margin-right: 5px;}
 
 /* courses 
 
@@ -210,15 +211,25 @@ header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
 
 
 /* certificate */
-
+.certificate_list{font-family: 'NanumBarunGothic';}
 .certificate_list li.venturesquire h3.logo{width: 29%;display: inline-block;padding-left: 26%;margin-bottom: 10px;}
 .venturesquire .certificate_info{font-size:0.75em;}
-.venturesquire .certificate_info spna{display:block;}
-.venturesquire .certificate_info .certificate_course{font-size:1.7em;color:#2faa47}
-.venturesquire .certificate_info .certificate_text{font-size:0.8em;line-height:1.2;}
-.venturesquire .list_footer{position:relative;}
-.venturesquire .list_footer .qr_coder{width:170px; height:110px}
+.venturesquire .certificate_info span{display:block;}
+.venturesquire .certificate_course{font-size:1.7em;color:#2faa47;  margin-top: 10px;}
+.venturesquire .certificate_text{font-size:0.8em;line-height:1.2;  margin-top: 10px;}
+.venturesquire .list_footer{position:relative;font-size:0.5em;margin-top: 8px;overflow: hidden;}
+.venturesquire .list_footer img.left,.venturesquire .list_footer .center,.venturesquire .list_footer .right,.venturesquire .list_footer .signWrite{float:left;}
+.venturesquire .list_footer img.left{width:7%;  margin-top: 13px;}
+.venturesquire .list_footer .center{width:29%;  margin-left: 4px;
+  margin-top: 9px;}
+.venturesquire .list_footer .right{  width: 30%;
+  margin-top: 9px;}
+.venturesquire .list_footer .signWrite{width: 26%;
+  margin-left: 0px;
+  margin-top: 14px;}
+.venturesquire .list_footer .qr_coder{width:100%;max-width:100%;}
+.venturesquire .list_footer .signWrite img{width:54%;}
 .venturesquire .list_footer .date{}
-.venturesquire .list_footer .issuing{position:absolute;left:10%;top:0}
-.venturesquire .list_footer .agencies{position:absolute;left:10%;top:20px}
-.venturesquire .list_footer .signWrite{position:absolute;left:30%;top:20px}
+.venturesquire .list_footer .issuing{}
+.venturesquire .list_footer .agencies{}
+.address{clear:both;margin-top:58px;}
