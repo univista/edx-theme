@@ -189,5 +189,36 @@ header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
 .content_sec .view-course {
   width: 920px;
   padding: 14px 180px 40px;}
+
+
+
 .content_sec{margin:0 auto;background:#e5e5e5;overflow:hidden;clear:both;}
 .certificate_list li{float:left;width:50%;}
+
+/* courses 
+
+.container #main-content .course-card .img-wrapper {
+  height: 160px;
+  width: 230px;
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+  margin-left: 40px;
+}
+
+*/
+
+
+/* certificate */
+
+.certificate_list li.venturesquire h3.logo{width: 29%;display: inline-block;padding-left: 26%;margin-bottom: 10px;}
+.venturesquire .certificate_info{font-size:0.75em;}
+.venturesquire .certificate_info spna{display:block;}
+.venturesquire .certificate_info .certificate_course{font-size:1.7em;color:#2faa47}
+.venturesquire .certificate_info .certificate_text{font-size:0.8em;line-height:1.2;}
+.venturesquire .list_footer{position:relative;}
+.venturesquire .list_footer .qr_coder{width:170px; height:110px}
+.venturesquire .list_footer .date{}
+.venturesquire .list_footer .issuing{position:absolute;left:10%;top:0}
+.venturesquire .list_footer .agencies{position:absolute;left:10%;top:20px}
+.venturesquire .list_footer .signWrite{position:absolute;left:30%;top:20px}
