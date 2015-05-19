@@ -147,3 +147,25 @@ header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
   top: 50%;
 }
 .course-summary .media .hero img{width:100%;}
+.course-board .pagination{}
+.course-board .pagination{} .discussion-paginator{text-align:right;}
+.course-board .pagination nav li{display:inline;}
+.course-board .pagination nav li a{color:#32b04a;}
+.course-board .pagination nav li.current-page span{color:#666;}
+
+
+.login.container,.register.container{background:#fff;}
+.modal .inner-wrapper .close-modal{z-index:99;}
+
+
+.content-wrapper .region-container.container {  /* padding: 0 50px; */}
+.container {/*padding: 0 50px; */}
+.container #main-content{  /* padding: 15px; */}
+
+/* partners*/
+.partners_info{width:920px;padding: 14px 180px 40px;margin:0 auto;background:#f4f4f4;}
+.partner_name{font-size:1.8em;margin-bottom:20px;}
+.partners_text p{line-height:1.2}
+.partners_text{width:67.50572082379863%}
+..partners_logo{width:32.49427917620137%}
+.partners_text, .partner_info .partners_logo{float:left;}
