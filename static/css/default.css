@@ -63,6 +63,7 @@ header.global-x .nav-global{margin-left: 307px;margin-top: 30px;}
 .wrapper-footer footer .region-footer-columns ul.clause li a{color:#999;}
 .wrapper-footer footer .region-footer-columns ul.clause li:last-child a,ul.clause li:last-child a:hover{color:#32b04a !important;}
 
+
 /*로그인 style add*/
 .view-login .content-wrapper,.view-register .content-wrapper{padding-top:24px;padding-bottom: 100px;}
 .region-column-wrapper,.view-dashboard .content-wrapper,.content-wrapper.padTop {padding-top:24px;}
@@ -163,12 +164,30 @@ header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
 .container #main-content{  /* padding: 15px; */}
 
 /* partners*/
-.partners_info{width:920px;padding: 14px 180px 40px;margin:0 auto;background:#f4f4f4;}
+.partners_info{  width: 875px;
+  padding: 30px 30px 66px 0;
+  margin: 0 auto;
+  background: #f4f4f4;
+  overflow: hidden;}
 .partner_name{font-size:1.8em;margin-bottom:20px;}
-.partner_text p{line-height:1.2;color:#666;}
+.partner_text p{line-height:1.4;color:#666;padding-right:32px;}
 .partner_text{width:67.50572082379863%}
-.partner_logo{width:32.49427917620137%;width: 100%;background: #fff;text-align: center;
-  vertical-align: middle;height: 150px;}
+.partner_logo{width: 32.49427917620137%;
+  background: #fff;
+  text-align: center;
+  vertical-align: middle;
+  height: 150px;
+  line-height: 150px;
+  margin-top: 55px;}
 .partner_text, .partners_info .partner_logo{float:left;}
 
-.content_sec{width:920px;padding: 14px 180px 40px;margin:0 auto;background:#e5e5e5;overflow:hidden;clear:both;}
+.content_sec{  margin: 0 auto;
+  background: #e5e5e5;
+  overflow: hidden;
+  clear: both;}
+
+.content_sec .view-course {
+  width: 920px;
+  padding: 14px 180px 40px;}
+.content_sec{margin:0 auto;background:#e5e5e5;overflow:hidden;clear:both;}
+.certificate_list li{float:left;width:50%;}
