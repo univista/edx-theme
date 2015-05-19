@@ -165,7 +165,10 @@ header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
 /* partners*/
 .partners_info{width:920px;padding: 14px 180px 40px;margin:0 auto;background:#f4f4f4;}
 .partner_name{font-size:1.8em;margin-bottom:20px;}
-.partners_text p{line-height:1.2}
-.partners_text{width:67.50572082379863%}
-..partners_logo{width:32.49427917620137%}
-.partners_text, .partner_info .partners_logo{float:left;}
+.partner_text p{line-height:1.2;color:#666;}
+.partner_text{width:67.50572082379863%}
+.partner_logo{width:32.49427917620137%;width: 100%;background: #fff;text-align: center;
+  vertical-align: middle;height: 150px;}
+.partner_text, .partners_info .partner_logo{float:left;}
+
+.content_sec{width:920px;padding: 14px 180px 40px;margin:0 auto;background:#e5e5e5;overflow:hidden;clear:both;}
