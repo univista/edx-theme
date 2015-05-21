@@ -61,8 +61,9 @@ header.global-x .nav-global{margin-left: 307px;margin-top: 30px;}
 .wrapper-footer footer .region-footer-columns ul.clause li::after{content:'|';display:block;float:right;color:#666;padding-right:10px;padding-left:10px;}
 .wrapper-footer footer .region-footer-columns ul.clause li:last-child::after{display:none;}
 .wrapper-footer footer .region-footer-columns ul.clause li a{color:#999;}
+/*
 .wrapper-footer footer .region-footer-columns ul.clause li:last-child a,ul.clause li:last-child a:hover{color:#32b04a !important;}
-
+*/
 
 /*로그인 style add*/
 .view-login .content-wrapper,.view-register .content-wrapper{padding-top:24px;padding-bottom: 100px;}
@@ -216,23 +217,40 @@ p{font-family: 'NanumBarunGothic' !important;}
 /* certificate */
 .certificate_list{font-family: 'NanumBarunGothic';margin-left:14px;}
 .certificate_list li h3.logo{width: 24%;display: inline-block;padding-left: 26%;margin-top: 39px;}
-.certificate_list .certificate_info{padding: 40px 32px;font-size: 0.75em;}
+
+.certificate_list .certificate_info{padding: 40px 32px 15px;font-size: 0.75em;}
 .certificate_list .certificate_info span{display:block;}
-.certificate_list .certificate_course{font-size: 2.5em; color: #2faa47; margin-top: 0px; padding-left: 32px; font-weight: 200;width:57%;height:152px;overflow:hidden;}
-.certificate_list .certificate_text{font-size:1.2em;line-height:1.5;  margin-top: 10px;padding-left: 32px;}
-.certificate_list .list_footer{position:relative;font-size:0.5em;margin-top: 1px;overflow: hidden; padding-left: 32px;}
+
+.certificate_list .certificate_course{font-size: 2.4em; font-weight: 200; color: #2faa47; margin-top: 0px; padding-left: 32px;}
+.certificate_list .certificate_text{font-size:1em;font-weight: 300;line-height:1.5;  margin-top: 10px;padding-left: 32px;width:56%;height:155px;overflow:hidden;}
+.certificate_list .list_footer{position:relative;font-size:0.85em;margin-top: 1px;overflow: hidden; padding-left: 32px;}
 .certificate_list .list_footer img.left,.certificate_list .list_footer .center,.certificate_list .list_footer .organic,.certificate_list .list_footer .right{float:left;}
-.certificate_list .list_footer img.left{width:7%;  margin-top: 13px;}
-.certificate_list .list_footer .center{width:29%;  margin-left: 4px;margin-top: 9px;}
-  .certificate_list .list_footer .right{width: 30%;margin-top: 9px;}
-.certificate_list .list_footer .organic{width: 30%;margin-top: 9px;}
-.certificate_list .list_footer .signWrite{width: 26%;margin-left: 0px;margin-top: 14px;}
+.certificate_list .list_footer img.left{width:7%;margin-right:15px;margin-top:18px;}
+.certificate_list .list_footer .center{width:20%;    padding: 20px 3px 10px 3px;}  
+.certificate_list .list_footer .organic{width: 30%;   padding: 20px 3px 10px 3px;}
+.certificate_list .list_footer .right{width: 18%;}
+.certificate_list .list_footer .signWrite{width: 100%;text-align:center;}
+.certificate_list .list_footer .professor{font-size:0.5em;  padding-top: 5px; color: #868686;  text-align: center;}
+.certificate_list .list_footer .address{font-size:0.5em;clear:both;margin-top:43px;}
 .certificate_list .list_footer .qr_coder{width:100%;max-width:100%;}
-.certificate_list .list_footer .signWrite img{width:54%;}
+.certificate_list .list_footer .signWrite img{width:66%;}
 .certificate_list .list_footer .date{}
 .certificate_list .list_footer .issuing{}
 .certificate_list .list_footer .agencies{}
-.address{clear:both;margin-top:43px;}
+
+
+.certificate_list .roaconsulting .certificate_info{padding: 100px 32px 40px;}
+.certificate_list .roaconsulting .certificate_text{height:90px}
+.certificate_list .roaconsulting .list_footer img.left{float:none;display:block;}
+.certificate_list .roaconsulting .list_footer .right{margin-left:55px;}
+
+.certificate_list .venturesquire_type3 .certificate_info{text-align: center;}
+.certificate_list .venturesquire_type3 .certificate_course{text-align: center;}
+.certificate_list .venturesquire_type3 .certificate_text{  text-align: center; margin: 0 auto;}
+.certificate_list .venturesquire_type3 .list_footer .organict{width: 26%;}
+.certificate_list .venturesquire_type3 .list_footer .right {margin-left: 0;margin-top: 28px;}
+.certificate_list .venturesquire_type3 .list_footer .address {margin-top: 93px;text-align: center;}
+.certificate_list .venturesquire_type3 li h3.logo {padding-left: 52%;}
 
 
 .certificate_over_links {z-index: 9999;position: absolute;top: 58%;left: calc(50% - 80px);width: 160px;opacity:0;}
@@ -244,7 +262,7 @@ p{font-family: 'NanumBarunGothic' !important;}
 }*/
 
 .node-content p,.certificate_list p,label{font-family: 'NanumBarunGothic';}
-
+.certificate_list p,.certificate_list p span{color:#666;font-weight:300;}
 .my-courses header .x-sel{position: absolute;right: 0;top: -9px;}
 
 
