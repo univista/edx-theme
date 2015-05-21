@@ -82,14 +82,15 @@ header.global .nav-courseware{margin-top: 20px;}
 .dashboard .my-courses .listing-courses .course-item{border-bottom:none;}
 .dashboard .profile-sidebar .user-info>ul{border:none}
 .view-dashboard header.global .nav-global{margin-left: 0px;}/*dashboard : Find courses */
-.dashboard .my-courses .wrapper-header-courses{border:none;}
+.dashboard .my-courses .wrapper-header-courses{position: relative;border:none;margin-bottom: 32px;}
 
 header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
 
 /*about*/
 
 .course-info .course-sidebar>section{box-shadow: none; border: none;}
-.btn_block{display: block;background:#32b04a;color:#fff !important;width:auto;border-radius:3px;  padding: 15px 20px;text-align: center !important;border:none;text-shadow: none;}
+.btn_block{display: block;background:#32b04a;color:#fff !important;width:auto;border-radius:3px;  padding: 15px 20px;text-align: center !important;border:none;text-shadow: none;text-shadow: none !important;
+  border: none !important;}
 .btn_block:active,.btn_block:hover{background:none repeat scroll 0 0 #289137 !important;}
 .modal .inner-wrapper form .submit input[type="submit"], .leanModal_box .inner-wrapper form .submit input[type="submit"]{background:#32b04a;color:#fff;width:100%;  padding: 15px 20px;display: inline-block;text-align: center !important;border:none;}
 .modal .inner-wrapper form .submit input[type="submit"], .leanModal_box .inner-wrapper form .submit input[type="submit"]:hover{background:none repeat scroll 0 0 #289137 !important;}
@@ -164,13 +165,15 @@ header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
 .container #main-content{  /* padding: 15px; */}
 
 /* partners*/
+p{font-family: 'NanumBarunGothic' !important;}
+.content-wrapper h3{font-family: 'NanumBarunGothic';}
 .partners_info{  width: 875px;
   padding: 30px 30px 66px 0;
   margin: 0 auto;
   background: #f4f4f4;
   overflow: hidden;}
 .partner_name{font-size:1.8em;margin-bottom:20px;}
-.partner_text p{line-height:1.4;color:#666;padding-right:32px;}
+.partner_text p{line-height:1.4;color:#666;padding-right:32px;font-family: 'NanumBarunGothic';}
 .partner_text{width:67.50572082379863%}
 .partner_logo{width: 32.49427917620137%;
   background: #fff;
@@ -193,8 +196,8 @@ header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
 
 
 .content_sec{margin:0 auto;background:#e5e5e5;overflow:hidden;clear:both;}
-.certificate_list > li{float:left;  width: 41%;
-  margin-right: 5px;}
+.certificate_list > li{float:left;  width: 39%;
+  margin-right: 18px;}
 
 /* courses 
 
@@ -211,18 +214,18 @@ header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
 
 
 /* certificate */
-.certificate_list{font-family: 'NanumBarunGothic';}
+.certificate_list{font-family: 'NanumBarunGothic';margin-left:14px;}
 .certificate_list li h3.logo{width: 29%;display: inline-block;padding-left: 26%;margin-bottom: 10px;}
 .certificate_list .certificate_info{font-size:0.75em;}
 .certificate_list .certificate_info span{display:block;}
 .certificate_list .certificate_course{font-size:1.7em;color:#2faa47;  margin-top: 10px;}
 .certificate_list .certificate_text{font-size:0.8em;line-height:1.2;  margin-top: 10px;}
 .certificate_list .list_footer{position:relative;font-size:0.5em;margin-top: 1px;overflow: hidden;}
-.certificate_list .list_footer img.left,.certificate_list .list_footer .center,.certificate_list .list_footer .right,.certificate_list .list_footer .signWrite{float:left;}
+.certificate_list .list_footer img.left,.certificate_list .list_footer .center,.certificate_list .list_footer .organic,.certificate_list .list_footer .right{float:left;}
 .certificate_list .list_footer img.left{width:7%;  margin-top: 13px;}
 .certificate_list .list_footer .center{width:29%;  margin-left: 4px;
   margin-top: 9px;}
-.certificate_list .list_footer .right{  width: 30%;
+.certificate_list .list_footer .organic{  width: 30%;
   margin-top: 9px;}
 .certificate_list .list_footer .signWrite{width: 26%;
   margin-left: 0px;
@@ -235,17 +238,17 @@ header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
 .address{clear:both;margin-top:43px;}
 
 
-.certificate_over_links {z-index:9999;position:absolute;top:50%;}
+.certificate_over_links {z-index: 9999;position: absolute;top: 58%;left: calc(50% - 100px);width: 200px;opacity:0;}
+.certificate_over_links a i{font-size: 0;}
 
-.node-content p,.certificate_list p{font-family: 'NanumBarunGothic';}
-
-.node-page {
-  padding: 26px 24px;
-  color: #666;
-  line-height: 22px;
-  font-size: 14px;
-  background: #fff;
+.certificate_list > li:hover .certificate_over_links {
+    opacity:1;transition:all 0.2s ease-out 0.3s;
 }
+
+.node-content p,.certificate_list p,label{font-family: 'NanumBarunGothic';}
+
+.my-courses header .x-sel{position: absolute;right: 0;top: -9px;}
+
 
 /*결제 화면*/
 html .profile-wrapper {
@@ -285,3 +288,45 @@ font-family: 'NanumBarunGothic';
 .node-page.privacy .field-page-body .pb22{padding-bottom:22px;}
 .node-page.privacy .field-page-body .p0{padding:0;}
 .node-page.privacy .field-page-body .pb0{padding-bottom:0;}
+
+/*payment*/
+.payment,.payment span{font-size:14px;line-height:18px;color:#666}
+.payment h2{font-size:26px;line-height:34px;font-weight:300;color:#333;font-family: 'NanumBarunGothic';}
+.payment section:first-child{padding-bottom:50px;}
+.payment .sections{margin-top:35px}
+.payment .sections dl{overflow:hidden;width:100%;border-top:1px solid #ddd;margin:20px 0;}
+.payment .sections dl:nth-child(2){margin:0;}
+.payment .sections .payment-box01 dl,.payment .sections .payment-box03 dl{margin:0;border-top:0;}
+.payment .sections dl dt{float:left;width:170px;height:62px;box-sizing:border-box;background:#f4f4f4;margin:0;border-bottom:1px solid #ddd;line-height:20px;padding:20px;font-weight:700;}
+.payment .sections dl dt:after{content:'*';display:inline-block;color:#f44821;position:relative;top:3px;left:4px;}
+.payment .sections dl dd{float:left;width:930px;height:62px;margin:0;border-bottom:1px solid #ddd;padding:10px 20px;box-sizing:border-box;}
+.payment .sections dl dd label{font-size:14px;line-height:16px;}
+.payment .sections dl dd > div{height:40px;line-height:40px;display:inline-block;}
+.payment .sections dl dd > div > input[type="button"]{margin-left:15px;margin-top:5px;padding:5px 14px;font-size:12px;line-height:20px;vertical-align:top;}
+.payment .sections dl dd .radio-area{vertical-align: middle;}
+.payment .sections dl dd .post-type-label{display:inline-block;margin-right:20px;}
+.payment section .all-agree{display:inline-block;}
+.payment section .all-agree label{display:inline-block;margin-right:40px;font-size:14px;color:#666;}
+.payment section .all-agree .chk_area{top:3px;}
+.payment section:last-child .all-agree{padding-top:15px;}
+.payment .sections .payment-box01 > span{display:block;margin-top:18px;}
+.payment .sections .payment-box02 > span{display:block;line-height:22px;}
+.payment .sections .payment-box02 > span:first-child{margin-top:15px;}
+.payment .sections .payment-box01 dl dd .agree-area{background:#f4f4f4;margin-left:20px;padding-left:20px;margin-top:10px;}
+.payment .sections .payment-box01 dl dd .agree-area .chk_area{background:#ddd;top:3px;}
+.payment .sections .payment-box01 dl dd .agree-area .is-focused label{color:#2faa47;border-bottom: 1px solid #a5d1ac;}
+.payment .sections .payment-box01 dl dd .agree-area label{display:inline-block;margin-right:40px;border-bottom: 1px solid #b6b6b6;font-size:12px;}
+.payment .sections .payment-box01 dl dd .x-sel select,.x-sel select{appearance:button;border-radius: 2px;box-shadow: none;-webkit-appearance:button;-webkit-border-radius: 2px;-webkit-padding-end: 20px;-webkit-padding-start: 2px;-webkit-user-select: none;background:transparent;border:0;color: #666;font-size: inherit;overflow: hidden;padding: 10px 25px 10px 10px;text-overflow: ellipsis;white-space: nowrap;font-size:14px;height:40px;min-width:160px;}
+.payment .sections .payment-box01 dl dt:nth-child(5),.payment .sections dl dd:nth-child(6){height:120px;}
+.payment .sections .payment-box01 dl dd:nth-child(6) > div{display:block;}
+.payment .sections .payment-box01 dl dd .point{font-size:12px;color:#666;font-weight:700;margin-left:20px;}
+.payment .sections .payment-box01 dl dd .point:before{content:'*';display:inline-block;color:#f44821;position:relative;top:3px;left:-3px;}
+.payment .sections table{width:100%;border-top:1px solid #ddd;border-bottom:1px solid #ddd;}
+.payment .sections table th{height:45px;line-height:45px;background:#f4f4f4;padding-left:20px;box-sizing:border-box;color:#666;}
+.payment .sections table td{height:45px;line-height:45px;padding-left:20px;box-sizing:border-box;color:#666;}
+.payment section .btn-area{text-align:center;margin-top:40px;}
+.payment section .btn-area input[type=button]{width:165px;height:48px;font-size:16px;}
+.payment section .btn-area input[type=button]:last-child{margin-left:10px;}
+.payment section .btn-area input[type=button]:last-child{background-color:#6c7071;}
+.payment section .btn-area input[type=button]:last-child:hover{background-color:#535657;}
+
