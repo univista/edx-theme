@@ -86,7 +86,7 @@ header.global .nav-courseware{margin-top: 20px;}
 .dashboard .my-courses .wrapper-header-courses{position: relative;border:none;margin-bottom: 32px;}
 
 header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
-.modal .inner-wrapper form input[type="text"],.leanModal_box .inner-wrapper form textarea{appearance:button;border-radius: 2px;box-shadow: none;-webkit-appearance:button;-webkit-border-radius: 2px;-webkit-padding-end: 20px;-webkit-padding-start: 2px;-webkit-user-select: none;background:#666;border:0;color: #666;font-size: inherit;overflow: hidden;padding: 10px 25px 10px 10px;text-overflow: ellipsis;white-space: nowrap;font-size:14px;height:40px;min-width:160px;}
+.modal .inner-wrapper form input[type="text"],.modal .inner-wrapper form textarea{appearance:button;border-radius: 2px;box-shadow: none;-webkit-appearance:button;-webkit-border-radius: 2px;-webkit-padding-end: 20px;-webkit-padding-start: 2px;-webkit-user-select: none;background:#666;border:0;color: #666;font-size: inherit;overflow: hidden;padding: 10px 25px 10px 10px;text-overflow: ellipsis;white-space: nowrap;font-size:14px;height:40px;min-width:160px;}
 /*about*/
 
 .course-info .course-sidebar>section{box-shadow: none; border: none;}
