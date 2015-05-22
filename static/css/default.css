@@ -86,7 +86,7 @@ header.global .nav-courseware{margin-top: 20px;}
 .dashboard .my-courses .wrapper-header-courses{position: relative;border:none;margin-bottom: 32px;}
 
 header.global .primary>a{border:none;}/*dashboard : staff/help/log out */
-
+.modal .inner-wrapper form input[type="text"],.leanModal_box .inner-wrapper form textarea{appearance:button;border-radius: 2px;box-shadow: none;-webkit-appearance:button;-webkit-border-radius: 2px;-webkit-padding-end: 20px;-webkit-padding-start: 2px;-webkit-user-select: none;background:#666;border:0;color: #666;font-size: inherit;overflow: hidden;padding: 10px 25px 10px 10px;text-overflow: ellipsis;white-space: nowrap;font-size:14px;height:40px;min-width:160px;}
 /*about*/
 
 .course-info .course-sidebar>section{box-shadow: none; border: none;}
@@ -261,14 +261,15 @@ p{font-family: 'NanumBarunGothic' !important;}
 .certificate_list .meetadvisor .list_footer img.left{margin-top: 34px;}
 .certificate_list .meetadvisor .list_footer .center,.certificate_list .meetadvisor .list_footer .organic{padding-top:38px;}
 .certificate_list .meetadvisor .list_footer .address {margin-top: 99px;}
-
+.certificate_list .meetadvisor .list_footer .signWrite img{width: 83%;}
 
 .certificate_list .academyx .certificate_info{text-align: center;margin-top: 0px;padding-top:54px;}
 .certificate_list .academyx .certificate_course{text-align: center;padding-left:0;}
 .certificate_list .academyx .certificate_text{width: 80%;text-align: center;margin: 0 auto;padding-left:0;height: 227px;}
 .certificate_list .academyx .list_footer .address {margin-top: 87px;text-align: center;}
 
-.certificate_list .pagpartners .list_footer .right { margin-top: 25px; margin-right: 193px;}
+.certificate_list li.pagpartners h3.logo{margin-top:32px;}
+.certificate_list .pagpartners .list_footer .right { margin-top: 22px; margin-right: 193px;}
 .certificate_list .pagpartners .list_footer .organic{width:21%;}
 .certificate_list .pagpartners .list_footer .address {text-align: right;  margin-right: 27px;}
 
@@ -277,7 +278,7 @@ p{font-family: 'NanumBarunGothic' !important;}
 .certificate_over_links a{margin-right:15px;}
 .certificate_over_links a i{font-size: 0;}
 
-/*.certificate_list > li:hover .certificate_over_links {
+/*.certificate_list > li:hover .certificate_over_links,.certificate_list > li:focus .certificate_over_links {
     opacity:1;transition:all 0.2s ease-out 0.3s;
 }*/
 
@@ -365,4 +366,16 @@ font-family: 'NanumBarunGothic';
 .payment section .btn-area input[type=button]:last-child{margin-left:10px;}
 .payment section .btn-area input[type=button]:last-child{background-color:#6c7071;}
 .payment section .btn-area input[type=button]:last-child:hover{background-color:#535657;}
+
+/* 소식*/
+
+div.info-wrapper section.updates>h1{border-bottom: 3px solid #2faa47 !important;}
+
+/* 교재파일 */
+
+div.book-wrapper {margin-bottom: 60px;background: #fff;}
+div.book-wrapper section.book-sidebar {padding: 10px 0;border-radius: 0;border: 0;width: 274px;display:table-cell;
+  background: #fff;  vertical-align: top;}
+div.book-wrapper .book {padding: 0;width: 906px;display:table-cell;}
+div.book-wrapper section.book-sidebar ul#booknav > li{  padding: 4px 6px; margin: 5px 10px;}
 
