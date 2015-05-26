@@ -386,3 +386,34 @@ div.book-wrapper .book {padding: 0;width: 906px;display:table-cell;}
 div.book-wrapper section.book-sidebar ul#booknav > li{  padding: 4px 6px; margin: 5px 10px;}
 
 
+/*2015/05/26 수강과목 소식 css 추가*/
+.container.v2 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto 0;
+  padding: 40px 0;
+  max-width: 1180px;
+  min-width: 760px;
+  width: 100%;
+}
+
+.container.v2 .info-wrapper {  background: #fff !important;margin: 0 !important; }
+.container.v2>div {
+  display: block !important;
+  table-layout: fixed !important;
+  width: inherit !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+  background: #fff !important;
+  box-shadow: none !important;
+}
+
+.container.v2 .info-wrapper section h1 {
+  border-bottom: 3px solid #2faa47 !important;
+  text-align: left !important;
+  font-size: 32px !important;
+  line-height: 38px !important;
+  font-weight: 300 !important;
+  padding-bottom: 26px !important;
+}
