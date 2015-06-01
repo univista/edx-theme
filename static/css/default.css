@@ -17,7 +17,10 @@ header.global-x{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-s
 header.global-x nav{width:1280px !important;max-width:1280px;height:80px;margin:0 auto;position:relative;padding:0;}
 header.global-x nav h1.logo{float:left;margin-top: 8px;width:20%;margin-right:45%;}
 header.global-x nav h1.logo a{padding:0 !important;margin:0 !important;}
-header.global-x nav h1.logo img{width:151px;  height: auto;  max-width: none;  margin-top: 18px;  margin-left: 22px;}
+
+/*header.global-x nav h1.logo img{width:151px;  height: auto;  max-width: none;  margin-top: 18px;  margin-left: 22px;}*/
+header.global-x nav h1.logo img{width:192px;  height: auto;  max-width: none;  margin-top: 14px;  margin-left: 34px;}
+
 header.global-x nav .gnb{float:left;padding-top:32px;width:30%;}
 header.global-x nav .gnb li{float:left;padding-right:40px;}
 header.global-x nav .gnb li a{font-size:16px;display:block;height:20px;font-family: 'NanumBarunGothic';font-weight:400;color:#333333;}
