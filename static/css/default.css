@@ -253,7 +253,7 @@ p{font-family: 'NanumBarunGothic' !important;}
 .certificate_list .roaconsulting .list_footer img.left{float:none;display:block;}
 .certificate_list .roaconsulting .list_footer .right{margin-left:55px;  margin-top: 0;}
 .certificate_list .roaconsulting .certificate_course{font-size:2.2em;line-height:1.2em; width:460px; height:130px;}
-
+ 
 .certificate_list li.venturesquire_type3 h3.logo{padding-left: 52%;}
 .certificate_list .venturesquire_type3 .certificate_info{text-align: center;margin-top: 0px;}
 .certificate_list .venturesquire_type3 .certificate_course{text-align: center;padding-left:0;}
@@ -263,8 +263,8 @@ p{font-family: 'NanumBarunGothic' !important;}
 .certificate_list .venturesquire_type3 .list_footer .address {margin-top: 93px;text-align: center;}
 .certificate_list .venturesquire_type3 .list_footer img.left{margin-top: 37px;}
 .certificate_list .venturesquire_type3 .list_footer .center,.certificate_list .venturesquire_type3 .list_footer .organic{padding-top:40px;}
-
-
+ 
+ 
 .certificate_list .meetadvisor .certificate_info{text-align: center;margin-top: 0px;padding-top:105px;}
 .certificate_list .meetadvisor .certificate_course{text-align: center;padding-left:0;}
 .certificate_list .meetadvisor .certificate_text{width: 80%;text-align: center;margin: 0 auto;padding-left:0;height: 83px;}
@@ -272,22 +272,24 @@ p{font-family: 'NanumBarunGothic' !important;}
 .certificate_list .meetadvisor .list_footer .center,.certificate_list .meetadvisor .list_footer .organic{padding-top:38px;}
 .certificate_list .meetadvisor .list_footer .address {margin-top: 99px;}
 .certificate_list .meetadvisor .list_footer .signWrite img{width: 83%;}
-
-.certificate_list .academyx .certificate_info{text-align: center;margin-top: 0px;padding-top:54px;}
-.certificate_list .academyx .certificate_course{text-align: center;padding-left:0;}
-.certificate_list .academyx .certificate_text{width: 80%;text-align: center;margin: 0 auto;padding-left:0;height: 227px;}
+ 
+.certificate_list .academyx .certificate_info{text-align: center;margin-top: 0px;padding:0;height: 24px;}
+.certificate_list .academyx .certificate_info > span{display:none;}
+.certificate_list .academyx .certificate_course{text-align: left;padding:0 30px;width:100%;box-sizing: border-box;}
+.certificate_list .academyx .certificate_text{width: 80%;text-align: center;margin: 0 auto;padding-left:0;height: 167px;}
 .certificate_list .academyx .list_footer .address {margin-top: 87px;text-align: center;}
-
+.certificate_list .academyx .list_footer img.left{float: none;display: block;}
+ 
 .certificate_list li.pagpartners h3.logo{margin-top:32px;}
 .certificate_list .pagpartners .list_footer .right { margin-top: 22px; margin-right: 193px;}
 .certificate_list .pagpartners .list_footer .organic{width:21%;}
 .certificate_list .pagpartners .list_footer .address {text-align: right;  margin-right: 27px;}
-
-
+ 
+ 
 .certificate_over_links {z-index: 9999;position: absolute;top: 48%;left: calc(50% - 80px);width: 160px;opacity:0;}
 .certificate_over_links a{margin-right:15px;}
 .certificate_over_links a i{font-size: 0;}
-
+ 
 .certificate_list > li:hover .certificate_over_links,.certificate_list > li:focus .certificate_over_links {
     opacity:1;transition:all 0.2s ease-out 0.3s;
 }
